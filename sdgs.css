@@ -1,0 +1,12 @@
+.ocean {
+    border-top: 6px solid #087eaa;
+}
+.land {
+    border-top: 6px solid #399b68;
+}
+#masalah,#kerjasama,#pancasila {
+    scroll-margin-top: 125px;
+}
+.subnav {
+    position: relative;
+}

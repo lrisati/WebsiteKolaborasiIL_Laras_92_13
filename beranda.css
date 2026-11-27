@@ -1,0 +1,58 @@
+.home-hero {
+    display: grid;
+    grid-template-columns: 1.7fr .8fr;
+    gap: 20px;
+    align-items: stretch;
+}
+.home-hero h2 {
+    max-width: 720px;
+}
+.hero-side {
+    background: linear-gradient(145deg,#087eaa,#20b9a7);
+    color: white;
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+.hero-side h3 {
+    color: white;
+    margin-top: 18px;
+}
+.hero-side p {
+    margin: 0;
+}
+.big-circle {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #dff4eb;
+    color: #07506d;
+    border: 9px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+}
+.big-circle b {
+    font: 800 80px/.9 'Baloo 2';
+}
+.pillars {
+    margin-top: 18px;
+}
+.pillars .card:nth-child(2) {
+    border-top: 5px solid #20b9a7;
+}
+.pillars .card:nth-child(3) {
+    border-top: 5px solid #399b68;
+}
+.pillars .card:nth-child(4) {
+    border-top: 5px solid #087eaa;
+}

@@ -1,0 +1,9 @@
+.references li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+}
+.references a {
+    color: #087eaa;
+    font-weight: 800;
+    overflow-wrap: anywhere;
+}

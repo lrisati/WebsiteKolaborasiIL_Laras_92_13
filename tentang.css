@@ -1,0 +1,29 @@
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background: #e9f7f5;
+    padding: 20px;
+    border-radius: 14px;
+    margin-top: 22px;
+}
+
+.profile-avatar {
+    width: 220px;
+    height: 900px;
+    flex: 0 0 220px;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d5eae5;
+}
+
+.profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+}
